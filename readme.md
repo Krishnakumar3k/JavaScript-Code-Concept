@@ -1,6 +1,6 @@
-# Project-Paytm Clone HTML and Tailwind CSS
+# JavaScript Coding Concept.
 
-![Badge](https://img.shields.io/badge/Paytm-Clone-green)
+![Badge]()
 
 # [Link of live Project]()
 
