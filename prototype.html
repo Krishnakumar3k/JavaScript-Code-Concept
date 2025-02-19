@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    var Laptop = function(Lname, Lcolor, Lprice){
+    this.name = Lname;
+    this.color = Lcolor;
+    this.price = Lprice;
+}
+var Asus = new Laptop("vivoBook", "Silver", "65000");
+Laptop.prototype.fulldetail = function(){
+    return this.name +  this.color + this.price;
+}
+var Dell = new Laptop("D2S500", "Silver", "66000");
+var Apple = new Laptop("MacBook pro", "Silver", "170000");
+console.log(Asus.fulldetail());
+//console.log(Dell.fulldetail()); it will not work
+console.log(Dell.fulldetail()); 
+  </script>
+</body>
+</html>
